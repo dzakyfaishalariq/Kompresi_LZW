@@ -54,4 +54,5 @@ fileinput.addEventListener("change", function (e) {
       URL.revokeObjectURL(url);
     });
   };
+  fileinput.value = "";
 });
